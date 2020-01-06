@@ -23,6 +23,18 @@ error_reporting(E_ALL);
     <title>Document</title>
 </head>
 <body>
+<?php
+    $numbers = [7,9,8,9,8,8,6];
+
+    function printArr($array) {
+        foreach($array as $item){
+            echo "$item <br>";
+        }
+    }
+
+    printArr($numbers);
+
+?>
 
 </body>
 </html>
