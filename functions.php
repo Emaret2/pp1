@@ -4,3 +4,15 @@ function printArr($array) {
         echo "$item <br>";
     }
 }
+
+function largest($array) {
+
+        $largest = $array[0];
+        foreach($array as $item){
+            if($item > $largest){
+                $largest = $item;
+            }
+        }
+        return $largest;
+
+}

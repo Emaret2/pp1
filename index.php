@@ -30,6 +30,9 @@ error_reporting(E_ALL);
 
     printArr($numbers);
 
+    $largest = largest($numbers);
+    echo "<p> the largest is $largest </p>";
+
 ?>
 
 </body>
