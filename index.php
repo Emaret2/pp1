@@ -33,6 +33,13 @@ error_reporting(E_ALL);
     $largest = largest($numbers);
     echo "<p> the largest is $largest </p>";
 
+    $newNumbers = removeDups($numbers);
+    echo '<br>';
+    printArr($newNumbers);
+
+    $newestNumbers = distribution($numbers);
+    echo '<br>';
+    printAscArr($newestNumbers);
 ?>
 
 </body>
